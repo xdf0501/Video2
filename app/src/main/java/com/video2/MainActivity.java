@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
      //   EventBus.getDefault().register(this);
         videoController1 = (JCVideoPlayer) findViewById(R.id.videocontroller1);
-        videoController1.setUp("http://zhihui.on168.com.cn/LiveVod/S201705260915561580.m3u8",
-                "",
-                "晒比视频播放");
+         videoController1.setUp("http://2449.vod.myqcloud.com/2449_43b6f696980311e59ed467f22794e792.f20.mp4",
+                "http://p.qpic.cn/videoyun/0/2449_43b6f696980311e59ed467f22794e792_1/640",
+                "一行代码实现视频播放");
         JCVideoPlayer.toFullscreenActivity(this,
-                "http://zhihui.on168.com.cn/LiveVod/S201705260915561580.m3u8",
-                "",
-                "晒比视频播放");
+                "http://2449.vod.myqcloud.com/2449_43b6f696980311e59ed467f22794e792.f20.mp4",
+                "http://p.qpic.cn/videoyun/0/2449_43b6f696980311e59ed467f22794e792_1/640",
+                "一行代码实现视频播放");
 
     }
 
